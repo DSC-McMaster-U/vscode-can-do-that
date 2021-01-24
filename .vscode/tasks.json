@@ -1,0 +1,14 @@
+{
+    "tasks": [
+        {
+            "label": "Run 100",
+            "type": "shell",
+            "command": "python 5_script.py --nsteps 100"
+        },
+        {
+            "label": "Run import sort",
+            "type": "shell",
+            "command": "isort -y && black ."
+        },
+    ]
+}
