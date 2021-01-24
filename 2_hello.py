@@ -3,13 +3,13 @@
 # select current line
 print("hello world") # select this line
 
-# delete to end of line
+# delete all right
 print("hello world") <- place cursor next to arrow and delete the the end of the line
 
 # delete line
 print("hello world") # delete me
 
-# right/left a word
+# right/left a word (option + left/right)
 print("this is a sentence")
 
 # indent/deindent
