@@ -1,0 +1,4 @@
+- trim trailing whitespace
+- autoformat on save
+- set tab size
+- spaces vs tabs
