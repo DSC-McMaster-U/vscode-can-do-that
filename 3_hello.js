@@ -10,25 +10,13 @@ console.log(fib(10))
 
 // go to line
 
-// cursor undo: go to previous cursor position
+// cursor undo? (TODO)
 
 
 
 ////// Intellisense, Linting, Formatting //////
 
 // hover over definition for intellisense
-
-/**
- * Computes the nth fibonnaci number using a naive recursive approach.
- * 
- * @param   {Number} n  The fibonacci number to compute.
- * @return  {Number}    The nth fibonacci number.
- */
-function fib(n) {
-    if (n <= 1)
-        return 1
-    return fib(n - 1) + fib(n - 2)
-}
 console.log(fib(10))
 
 
@@ -84,4 +72,22 @@ rl.close()};
 
 
 
-// view markdown preview
+
+
+
+
+
+/**
+ * Computes the nth fibonnaci number using a naive recursive approach.
+ * 
+ * @param   {Number} n  The fibonacci number to compute.
+ * @return  {Number}    The nth fibonacci number.
+ */
+function fib(n) {
+    if (n == 0)
+        return 0
+    else if (n == 1)
+        return 1
+    else
+        return fib(n - 1) + fib(n - 2)
+}

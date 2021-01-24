@@ -1,16 +1,10 @@
 ### Editing ###
 
-# select current line
-print("hello world") # select this line
-
 # delete all right
 print("hello world") <- place cursor next to arrow and delete the the end of the line
 
 # delete line
 print("hello world") # delete me
-
-# right/left a word (option + left/right)
-print("this is a sentence")
 
 # indent/deindent
 for number in range(10):
@@ -40,6 +34,12 @@ dictionary = {
     "f": 6,
 }
 
+# expand line selection (cmd + l)
+print("hello world") # select this line
+
+# right/left a word (option + left/right)
+print("this is a sentence")
+
 # move line up/down
 print("after")
 print("before")
@@ -51,9 +51,6 @@ print("copy me")
 # expand selection
 print("expand me")
 range(10, 20, 2)
-
-# select to bracket
-print("select me")
 
 # code folding
 def foo():

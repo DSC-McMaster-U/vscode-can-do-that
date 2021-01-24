@@ -1,15 +1,13 @@
 # The Basics: GUI and File Navigation
-Congratulations, you know how to navigate gui and files in vscode!
-
 Remember `Cmd/Ctrl + Shift + P` is your best friend!
 
 If you ever forgot the basics, just type "Help" in command pallete and a bunch of helpful options will pop up.
 
 Instead of using the file navigation pane on the left to find files, use `Cmd + P` to search for a file, it's much faster!
 
-Some a short list of useful GUI Navigation shortcuts:
+Here's a short list of useful GUI Navigation shortcuts:
 - Command Pallete: `Cmd + Shift + P`
-- Navigate to File: `Cmd + P`
+- Go to File: `Cmd + P`
 - Toggle Sidebar Visibility: `Cmd + B`
 - Toggle Integrated Terminal: `Cmd + J`
 - Close Window: `Cmd + W`
