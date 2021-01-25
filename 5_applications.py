@@ -1,58 +1,41 @@
 import math
+# install python extension for language
+# features like intellisense and code completition
+math.
 
-def foo(n):
-    return n * 10
+# remove this line, and commit this file using the GUI
 
-def bar(n):
-    return n / 10
+# remove this line, and commit this file using the integrated terminal
 
-def foobar(n):
-    return foo(n) + bar(n)
+def nickels_to_dollars(num_nickels):
+    return num_nickels * 0.04 # fix me
 
-for i in range(10):
+def dimes_to_dollars(num_dimes):
+    return n / 0.10 # fix me
+
+def dollars(num_nickels, num_dimes):
+    return nickels_to_dollars(n) + nickels_to_dollars(n) # change me
+
+# git add line by line, with individual commit messages
+
+# wrap with __main__ using code snippet
+# add argparse
+# test argparse
+# create code snippet for argparse
+# create task for running code with a given param
+# create task for running from devops stuff?
+for i in range([10,2], [11, 12]):
     print(foobar(i))
 
 
+# git diff with previous version (use timeline)
 
+# side by side code editors
 
-### Python Extensions ###
-# add python extension to show completitions, intellisense, etc ...
-
-
-
-### Git Integration ###
-# delete comment and check inline diff
-
-# commit it using the gui (show command pallete option as well)
-
-# change the functionality of foo, bar, and foobar
-# add and commit each seperatly using the inline git gutter
-
-
-
-### Extending Git Functionality with Git Lens ###
-# Git Lens: git diff with previous version
-
-
-
-### Code Snippets ###
-# use code snippet to add __main__
-
-# add argument parsing to the file
-
-# make a custom code snippet for argparse
-
-
-
-### Linting/Formatting in Python ###
 # linting with pylint
 
 # formatting with black
 
-
-
-### Project Specific Settings ###
-
-
-
-### tasks.json ###
+# auto format on save
+# auto trim trailing whitespace on save
+# auto add new line to end of file
