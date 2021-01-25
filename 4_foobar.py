@@ -1,7 +1,5 @@
 import math
 
-# uneccesary comment
-
 def foo(n):
     return n * 10
 

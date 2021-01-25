@@ -1,7 +1,7 @@
 ### Editing ###
 
 # delete all right
-print("hello world") <- place cursor next to arrow and delete the the end of the line
+print("hello world") <- place cursor at arrow and delete all right
 
 # delete line
 print("hello world") # delete me
@@ -9,7 +9,7 @@ print("hello world") # delete me
 # indent/deindent
 for number in range(10):
     squared = number*number
-print(i) # indent me 
+print(i) # indent me
         print(i*i) # deindent me
 
 # join lines
@@ -34,34 +34,38 @@ dictionary = {
     "f": 6,
 }
 
-# expand line selection (cmd + l)
-print("hello world") # select this line
+# expand selection
+print("hello earth")
+print(list(range(10, 20, 2)))
 
 # right/left a word (option + left/right)
 print("this is a sentence")
 
 # move line up/down
 print("after")
-print("before")
 print("middle")
+print("before")
 
 # copy line up/down
 print("copy me")
 
-# expand selection
-print("expand me")
-range(10, 20, 2)
-
 # code folding
-def foo():
-    total = 0
-    for i in range(100):
-        total += i
-    return total
+class MyClass:
+    def __init__(self):
+        self.nsteps = 100
+
+    def foo(self):
+        total = 0
+        for i in range(self.nsteps):
+            total += i
+        return total
+
+# go to start of line
+
+# go to end of line
 
 
-
-### Multi-Line Cursor ### 
+### Multi-Line Cursor ###
 
 # option + click
 print("hllo worl")
