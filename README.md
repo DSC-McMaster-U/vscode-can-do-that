@@ -3,24 +3,30 @@
 ## Instructions
 
 ### 1. Install VSCode
+
 https://code.visualstudio.com/download
 
 ### 2. Install Git and Python
+
 **MacOS**
+
 ```bash
 xcode-select --install
 ```
 
 **Windows**
+
 - https://git-scm.com/downloads
 - https://www.python.org/downloads/
 
 **Ubuntu**
+
 ```bash
 sudo apt install git python
 ```
 
 ### 3. Verify and Clone
+
 1. Open up VSCode
 2. Press `Cmd/Ctrl + J` to open up the integrated terminal
 3. Verify git is installed by running `git --version`

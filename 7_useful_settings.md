@@ -4,6 +4,7 @@
 - spaces vs tabs
 
 **opinionated:**
+
 - toggle minimap
 - toggle breadcrumbs
 - toggle status bar

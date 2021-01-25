@@ -1,4 +1,5 @@
 # The Basics: GUI and File Navigation
+
 Remember `Cmd/Ctrl + Shift + P` is your best friend!
 
 If you ever forgot the basics, just type "Help" in command pallete and a bunch of helpful options will pop up.
@@ -6,6 +7,7 @@ If you ever forgot the basics, just type "Help" in command pallete and a bunch o
 Instead of using the file navigation pane on the left to find files, use `Cmd + P` to search for a file, it's much faster!
 
 Here's a short list of useful GUI Navigation shortcuts:
+
 - Command Pallete: `Cmd + Shift + P`
 - Go to File: `Cmd + P`
 - Toggle Sidebar Visibility: `Cmd + B`
@@ -14,7 +16,6 @@ Here's a short list of useful GUI Navigation shortcuts:
 - Open Next Editor: `Cmd + Shift + ]`
 - Open Previous Editor: `Cmd + Shift + [`
 - Open Recent: `Ctrl + R`
-
 
 Comprehensive list of tips and tricks: https://github.com/microsoft/vscode-tips-and-tricks#editing-hacks
 
