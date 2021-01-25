@@ -1,8 +1,3 @@
-import math
-# install python extension for language
-# features like intellisense and code completition
-math.
-
 # remove this line, and commit this file using the GUI
 
 # remove this line, and commit this file using the integrated terminal
@@ -11,10 +6,10 @@ def nickels_to_dollars(num_nickels):
     return num_nickels * 0.04 # fix me
 
 def dimes_to_dollars(num_dimes):
-    return n / 0.10 # fix me
+    return num_dimes / 0.10 # fix me
 
 def dollars(num_nickels, num_dimes):
-    return nickels_to_dollars(n) + nickels_to_dollars(n) # change me
+    return nickels_to_dollars(num_nickels) + dimes_to_dollars(num_dimes) # change me
 
 # git add line by line, with individual commit messages
 
@@ -22,10 +17,8 @@ def dollars(num_nickels, num_dimes):
 # add argparse
 # test argparse
 # create code snippet for argparse
-# create task for running code with a given param
-# create task for running from devops stuff?
-for i in range([10,2], [11, 12]):
-    print(foobar(i))
+for nickels, dimes in range([10,2],[11,12]):
+    print(dollars(nickels, dimes))
 
 
 # git diff with previous version (use timeline)
@@ -35,7 +28,3 @@ for i in range([10,2], [11, 12]):
 # linting with pylint
 
 # formatting with black
-
-# auto format on save
-# auto trim trailing whitespace on save
-# auto add new line to end of file

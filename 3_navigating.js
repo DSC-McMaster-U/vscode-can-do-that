@@ -2,26 +2,45 @@
 ////// Navigation //////
 ////////////////////////
 
-// code folding TODO
+// code folding
+function foobar(start_val) {
+  function foo(val) {
+    for (i = 0; i < 10; i++) {
+      val += i
+      console.log(val)
+    }
+    return val
+  }
 
-// cmd + click navigating [VERY VERY USEULF]
+  function bar(val) {
+    if (val < 0) {
+      return 0
+    }
+    return val
+  }
+
+  return bar(foo(start_val))
+}
+foobar(10)
+
+// go to definition [cmd + click]
 console.log("hello world");
 console.log(fib(10));
 
 import { some_function } from './some_script.js';
 console.log(some_function());
 
-// go to symbol in editor [VERY VERY USEFUL]
+// go to symbol in editor [cmd + shift + o]
 // lets go to the fib symbol
 
-// go to symbol in workspace [VERY VERY USEFUL]
+// go to symbol in workspace [cmd + t]
 // lets go to the some_function symbol
 
 // go to line
 
-// cursor undo? (TODO)
+// go back
 
-
+// go forward
 
 
 
@@ -64,17 +83,17 @@ function greeting(name) {
 ////// Search //////
 ////////////////////
 
-// find in file (cmd + f)
+// search in file (cmd + f)
 
-// find no capitalization
+// search no capitalization
 
-// find exact
+// search exact
 
-// find regex
+// search regex
 
-// find and replace
+// search and replace
 
-// find in workspace (cmd + shift + f)
+// search in workspace (cmd + shift + f)
 
 
 

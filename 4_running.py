@@ -1,3 +1,8 @@
+import math
+# install python extension for language
+# features like intellisense, code completition, symbols, go to definition, debugging, run, etc ...
+math
+
 def two_sum(nums, target):
     """Checks if there exists a pair of numbers in nums that sum to target.
 
@@ -27,4 +32,11 @@ def test_two_sum():
     assert two_sum([4, 2, 3, 1], 8) == False
 
 if __name__ == "__main__":
+    # run using the run button
+    # run using integrated terminal
+    # run using debug
+    # run using debug with breakpoint
+    # launch.json
+    # tasks.json
     test_two_sum()
+    print("tests passed")

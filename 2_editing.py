@@ -32,9 +32,9 @@ print("hello world") # <- place cursor here and select using cmd + shift + right
 
 
 
-####################
-###### Useful ######
-####################
+##########################
+###### Intermediate ######
+##########################
 # indent/deindent (also works with selection)
 for number in range(10):
     squared = number*number
@@ -75,7 +75,7 @@ print("helworld")
 
 
 ###########################
-###### Demonstration ######
+######## Advanced #########
 ###########################
 # delete all right
 print("hello world") <- place cursor at arrow and delete all right
