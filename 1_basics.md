@@ -1,11 +1,5 @@
 # The Basics: GUI and File Navigation
 
-Remember `Cmd/Ctrl + Shift + P` is your best friend!
-
-If you ever forgot the basics, just type "Help" in command pallete and a bunch of helpful options will pop up.
-
-Instead of using the file navigation pane on the left to find files, use `Cmd + P` to search for a file, it's much faster!
-
 Here's a short list of useful GUI Navigation shortcuts:
 
 - Command Pallete: `Cmd + Shift + P`
@@ -17,8 +11,21 @@ Here's a short list of useful GUI Navigation shortcuts:
 - Open Previous Editor: `Cmd + Shift + [`
 - Open Recent: `Ctrl + R`
 
-Comprehensive list of tips and tricks: https://github.com/microsoft/vscode-tips-and-tricks#editing-hacks
+**Note:**
+Throughout the workshop, we'll be showing the Mac keyboard shortcuts. Most of the commands in this workshop are found in command pallete, so to find the keybinding, simply search it in command pallete. For simplicity here is the mapping of mac meta keys to windows meta keys:
+| Mac    | Windows                    |
+|--------|----------------------------|
+| Cmd    | Control (most of the time) |
+| Ctrl   | Control (some of the time) |
+| Option | Alt                        |
+| Shift  | Shift                      |
+| Delete | Backspace                  |
+| Return | Enter                      |
 
-There is also another tricks and tips guide which can be accessed via "Help: Tips and Tricks" in command pallete.
+---
 
-For the official VSCode starter guide and documentation, type "Help: Documentation" in command pallete.
+Remember `Cmd + Shift + P` is your best friend!
+
+Another useful one is Go to File (`Cmd + P`). Instead of using the file explorer bar on the left to open files, `Cmd + P` let's you quickly search for a file, it's much faster!
+
+Type "Help" in command pallete for help options.
