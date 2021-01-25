@@ -41,6 +41,11 @@ for number in range(10):
 print(i) # indent me
         print(i*i) # deindent me
 
+# toggle line comment (also works with selection)
+print("comment me out!")
+print("comment me out!")
+print("comment me out!")
+
 # expand selection
 print("hello earth")
 print(list(range(10, 20, 2)))
