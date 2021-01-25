@@ -2,7 +2,9 @@
 ////// Navigation //////
 ////////////////////////
 
-// cmd + click navigating
+// code folding TODO
+
+// cmd + click navigating [VERY VERY USEULF]
 console.log("hello world");
 console.log(fib(10));
 
@@ -18,6 +20,8 @@ console.log(some_function());
 // go to line
 
 // cursor undo? (TODO)
+
+
 
 
 
@@ -76,7 +80,7 @@ function greeting(name) {
 
 
 /**
- * Hello world this is documentations. Computes the nth fibonnaci number using a naive recursive approach.
+ * Computes the nth fibonnaci number using a naive recursive approach.
  *
  * @param   {Number} n  The fibonacci number to compute.
  * @return  {Number}    The nth fibonacci number.
