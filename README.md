@@ -1,34 +1,75 @@
 # VSCode Can Do That?!
+Link to [Event Page](https://dsc.community.dev/events/details/developer-student-clubs-mcmaster-university-presents-vscode-can-do-that/#/)
 
-## Instructions
+## Requirements
 
-### 1. Install VSCode
+- **Visual Studio Code** ([download link](https://code.visualstudio.com/download))
+- **Git** ([download link](https://git-scm.com/downloads)) (verify with `git --version` in command line)
+- **Python** (optional, [download link](https://www.python.org/downloads/)) (verify with `python --version` in command line)
 
-https://code.visualstudio.com/download
+## Agenda
 
-### 2. Install Git and Python
+### 1. Introduction
 
-**MacOS**
+See [slides](https://docs.google.com/presentation/d/1Wt3m39Y-wtVvmRlMijjDtupBQq-iCZ3m1X7hAcxycK0/edit?usp=sharing)
 
-```bash
-xcode-select --install
-```
+- What is Visual Studio Code
+- Why use Visual Studio Code
 
-**Windows**
+### 2. The Basics
 
-- https://git-scm.com/downloads
-- https://www.python.org/downloads/
+See `basics.md`
 
-**Ubuntu**
+- GUI Navigation
+- File Navigation
+- Command Pallete
 
-```bash
-sudo apt install git python
-```
+### 3. Editing Code
 
-### 3. Verify and Clone
+See `edit.py`
 
-1. Open VSCode
-2. Press `Cmd/Ctrl + J` to open up the integrated terminal
-3. Verify git is installed by running `git --version`
-4. (optional) Verify python is installed by running `python --version`
-5. Clone this repository by clicking the clone repository button that can be found on any one of the welcome page, file explorer tab, or source code management tab. Paste the following url `https://github.com/DSC-McMaster-U/vscode-can-do-that.git` and when prompted, select a folder to put the repository in. A notification will show up asking if you want to open the repository folder, click "Open".
+- Basics
+- Useful Tricks (commenting/indenting blocks of code, expand selection, etc ...)
+- Multi-Cursor Editing
+- Advanced Tricks (transform, sort, transpose, etc ...)
+
+### 4. Navigating Code
+
+See `navigate.js`
+
+- Code folding
+- Go to Definition/Symbol/Line
+- Go Back/Forward
+- Intellisense
+- Linting
+- Formatting
+- Refactoring (renaming)
+- Searching
+
+### 5. "Real World" Example
+
+See `example.py`
+
+- Language Featurese (Python Extension)
+- Executing Code
+- Debugging Code
+- Git Integration
+- Code Snippets
+- Tasks.json, Launch.json
+- Code Quality (format on save, trim whitespace on save, etc ...)
+
+### 6. Customization
+
+See `customizaztion.md`
+
+-  Themes
+-  Keyboard Shortcuts
+-  Settings
+
+### 7. Extras
+
+See `extras.md`
+
+- Extensions
+- Remote Development
+- Additional Resources

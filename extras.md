@@ -1,4 +1,5 @@
 # Extensions
+
 Here's a [list of the most popular extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs).
 
 A few notable ones:
@@ -17,15 +18,14 @@ A few notable ones:
 - Markdown Preview Github
 - Spell Right
 
-
-
 # Remote Development
+
 Remote SSH Extension
 
-
-
 # Additional Resources
+
 As usual, command pallete is your friend for additional resources. Type "Help:" and a bunch of resources will show up including:
+
 - VSCode Documentation (highly recommend checking out the language specific documentation ie python, javascript, etc ...)
 - Tips and Tricks
 - Introductory Videos
