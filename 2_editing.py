@@ -1,12 +1,11 @@
 ####################
 ###### Basics ######
 ####################
-# arrow keys and mouse, duh
+# arrow keys, mouse, and scroll work as normal, duh
 print("hello world")
 
 # right/left a word [option + left/right]
-num = 6
-print("this is a sentence with", num, "words")
+print("this is a sentence with words")
 
 # start of line [cmd + left] or [ctrl + a]
 # end of line   [cmd + right] or [ctrl + e]
@@ -35,25 +34,25 @@ print("hello world") # <- place cursor here and select using cmd + shift + right
 ##########################
 ###### Intermediate ######
 ##########################
+# toggle line comment (also works with selection)
+print("comment me out!")
+print("comment me out!")
+print("comment me out!")
+
 # indent/deindent (also works with selection)
 for number in range(10):
     squared = number*number
 print(i) # indent me
         print(i*i) # deindent me
 
-# toggle line comment (also works with selection)
-print("comment me out!")
-print("comment me out!")
-print("comment me out!")
-
 # expand selection
 print("hello earth")
 print(list(range(10, 20, 2)))
 
 # move line up/down (also works with selection)
-print("after")
-print("middle")
 print("before")
+print("middle")
+print("after")
 
 ### Multi-Line Cursor ###
 
@@ -62,12 +61,12 @@ print("hllo worl")
 print("hllo worl")
 print("hllo worl")
 
-# cmd + d select next
+# add selection to next find match [cmd + d]
 print("h wld")
 print("h wld")
 print("h wld")
 
-# cmd + shift + l
+# select all occurences of find match [cmd + shift + l]
 print("helworld")
 print("helworld")
 print("helworld")
@@ -87,8 +86,18 @@ print("delete me"); print("keep me")
 print("delete me")
 
 # delete word behind [option + delete]
-# delete word ahead (see command pallete "delete word")
+# delete word (see command pallete "delete word")
 print("hello world")
+
+# delete character ahead [ctrl + d]
+print("hellooooo world")
+
+# transpose letters [ctrl + t]
+print("helol world")
+
+# transform to lowercase, uppercase, snake case, title case
+convertThisToSnakeCase = 10
+a = "this is a title"
 
 # join lines
 dictionary = {

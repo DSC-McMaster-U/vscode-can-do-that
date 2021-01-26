@@ -85,9 +85,9 @@ function greeting(name) {
 
 // search in file (cmd + f)
 
-// search no capitalization
+// search match casing (capitalization)
 
-// search exact
+// search exact word
 
 // search regex
 
