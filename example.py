@@ -1,13 +1,16 @@
 """Checks if a given number can be expressed as the sum of two fibonnaci numbers."""
 
 def fib(n):
-    """Computes the fibonnaci sequence up to and including n."""
+    """Computes the first n numbers of the fibonnaci sequence (0 to n, excluding n)."""
     if n == 0:
+        return []
+    elif n == 1:
         return [0]
 
     fib_seq = [0, 1]
-    for _ in range(n-1):
+    for _ in range(n-2):
         fib_seq.append(fib_seq[-1] + fib_seq[-2])
+
     return fib_seq
 
 def two_sum(nums, target):
@@ -27,17 +30,19 @@ def test_two_sum():
     assert two_sum([4, 2, 3, 1], 100) == False
     assert two_sum([4, 2, 3, 1], 8) == False
 
-# main code
+# run tests
 test_two_sum()
 print("tests passed")
 
+# run main code
 N = 10
 target_sum = 15
 fibonacci_seq = fib(N)
 result = two_sum(fibonacci_seq , target_sum)
-print("target =", target)
+print("target =", target_sum)
 print("nums =", fibonacci_seq)
 print("result =", result)
+
 
 
 ####################
