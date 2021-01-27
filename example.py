@@ -19,6 +19,7 @@ def two_sum(nums, target):
     return False
 
 def test_two_sum():
+    """Run tests for two_sum function."""
     assert two_sum([1, 2], 3) == True
     assert two_sum([4, 2, 3, 1], 5) == True
     assert two_sum([4, 2, 3, 1], 100) == False
