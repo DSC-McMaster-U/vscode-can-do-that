@@ -13,8 +13,8 @@ Link to [Event Page](https://dsc.community.dev/events/details/developer-student-
 
 See [slides](https://docs.google.com/presentation/d/1Wt3m39Y-wtVvmRlMijjDtupBQq-iCZ3m1X7hAcxycK0/edit?usp=sharing)
 
-- What is Visual Studio Code
-- Why use Visual Studio Code
+- What is Visual Studio Code?
+- Why use Visual Studio Code?
 
 ### 2. The Basics
 
@@ -40,6 +40,7 @@ See `navigate.js`
 - Code folding
 - Go to Definition/Symbol/Line
 - Go Back/Forward
+- Language Features
 - Intellisense
 - Linting
 - Formatting
@@ -50,13 +51,13 @@ See `navigate.js`
 
 See `example.py`
 
-- Language Featurese (Python Extension)
-- Executing Code
+- Python Language Features via Extension
+- Running Code
 - Debugging Code
 - Git Integration
 - Code Snippets
 - Tasks.json, Launch.json
-- Code Quality (format on save, trim whitespace on save, etc ...)
+- Code Quality (linting, format on save, trim whitespace on save, etc ...)
 
 ### 6. Customization
 
