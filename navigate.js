@@ -6,29 +6,29 @@
 function foobar(start_val) {
   function foo(val) {
     for (i = 0; i < 10; i++) {
-      val += i
-      console.log(val)
+      val += i;
+      console.log(val);
     }
     return val
   }
 
   function bar(val) {
     if (val < 0) {
-      return 0
+      return 0;
     }
-    return val
+    return val;
   }
 
   return bar(foo(start_val))
 }
-foobar(10)
+foobar(10);
 
 // go to definition [cmd + click]
 console.log("hello world");
 console.log(fib(10));
 
-import { some_function } from './some_script.js';
-console.log(some_function());
+const some_module = require("./some_module");
+console.log(some_module.some_function());
 
 // go to symbol in editor [cmd + shift + o]
 // lets go to the fib symbol
@@ -36,17 +36,18 @@ console.log(some_function());
 // go to symbol in workspace [cmd + t]
 // lets go to the some_function symbol
 
-// go to line
-
 // go back
 
 // go forward
 
+// go to line
 
 
-///////////////////////////////////////////////
-////// Intellisense, Linting, Formatting //////
-///////////////////////////////////////////////
+
+///////////////////////////////
+////// Language Features //////
+///////////////////////////////
+// javascript/typescript language features work out-of-the box in vscode
 
 // hover over definition for intellisense
 console.log(fib(10));
@@ -94,7 +95,6 @@ function greeting(name) {
 // search and replace
 
 // search in workspace (cmd + shift + f)
-
 
 
 
