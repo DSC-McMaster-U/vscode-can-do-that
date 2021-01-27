@@ -58,15 +58,15 @@ print("result =", result)
 "demonstrate a complete git diff of the file"
 "stage and commit fix and addition of __main__ in seperate commits"
 
-"add command line arguments for --test, --n, and --target"
-"demonstrate code snippet for parser and add_argument"
-
 "add linting (pylint)"
 "add formatting (black)"
 
+"add command line arguments for --test, --n, and --target"
+"demonstrate code snippet for parser and add_argument"
+
+"see tasks.json"
 "see settings.json under .vscode"
 "see launch.json"
-"see tasks.json"
 
 #######################
 ### Useful Settings ###
