@@ -68,25 +68,11 @@ print("result =", result)
 "see launch.json"
 "see tasks.json"
 
-"""
-useful settings
-- auto format on save
-- auto trim trailing whitespace on save
-- auto add new line to end of file
-- editor ruler at 80
-- for more editing space, toggle
-    - status bar
-    - minimap
-    - breadcrumbs
-    - side bar
-    - activity bar
-"""
+#######################
+### Useful Settings ###
+#######################
 
-"""
-    "files.trimTrailingWhitespace": true,
-    "editor.formatOnSave": true,
-    "files.insertFinalNewline": true,
-    "editor.rulers": [
-        80
-    ],
-"""
+# "files.trimTrailingWhitespace": true,
+# "editor.formatOnSave": true,
+# "files.insertFinalNewline": true,
+# "editor.rulers": [80],
