@@ -5,7 +5,6 @@ Link to [Event Page](https://dsc.community.dev/events/details/developer-student-
 
 - **Visual Studio Code** ([download link](https://code.visualstudio.com/download))
 - **Git** ([download link](https://git-scm.com/downloads)) (verify with `git --version` in command line)
-- **Python** (optional, [download link](https://www.python.org/downloads/)) (verify with `python --version` in command line)
 
 ## Agenda
 
