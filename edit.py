@@ -1,6 +1,10 @@
 ####################
 ###### Basics ######
 ####################
+# these commands are the basics, so you can't find them in command pallete
+# however, past the basics section, most (if not all) the commands listed
+# should be avaliable in command pallete (just search the name!)
+
 # arrow keys, mouse, and scroll work as normal, duh
 print("hello world")
 
@@ -20,14 +24,11 @@ print("go to the end of this line")
 print("hello world") # <- place cursor here and select using cmd + shift + right
 
 # if you're hardcore, never let your hands leave the home row
-# by using the below shortcuts to replace the funcationality
-# of the arrow keys:
+# by using the below shortcuts instead of the arrow keys:
 #   up    -> ctrl + p
 #   down  -> ctrl + n
 #   right -> ctrl + f
 #   left  -> ctrl + b
-
-# undo [cmd + z] and redo [cmd + shift + z] work as usual
 
 
 
@@ -39,22 +40,22 @@ print("comment me out!")
 print("comment me out!")
 print("comment me out!")
 
-# indent/deindent (also works with selection)
+# indent/outdent line (also works with selection)
 for number in range(10):
     squared = number*number
 print(i) # indent me
-        print(i*i) # deindent me
+        print(i*i) # outdent me
 
 # expand selection
 print("hello earth")
 print(list(range(10, 20, 2)))
 
 # move line up/down (also works with selection)
-print("before")
-print("middle")
 print("after")
+print("middle")
+print("before")
 
-### Multi-Line Cursor ###
+### Multi-Cursor Editing ###
 
 # option + click
 print("hllo worl")
