@@ -12,6 +12,8 @@ def fib(n):
 
 def two_sum(nums, target):
     """Checks if there exists a pair of numbers in nums that sums to target."""
+    # brute force solution
+    # https://miro.medium.com/max/1000/1*WgvIiz67sMUFIVMBaPEXNw.gif
     for i in range(len(nums)):
         for j in range(i, len(nums)):
             if (nums[i] + nums[j]) == target:
@@ -30,9 +32,9 @@ test_two_sum()
 print("tests passed")
 
 N = 10
-target = 15
+target_sum = 15
 fibonacci_seq = fib(N)
-result = two_sum(fibonacci_seq , target)
+result = two_sum(fibonacci_seq , target_sum)
 print("target =", target)
 print("nums =", fibonacci_seq)
 print("result =", result)
