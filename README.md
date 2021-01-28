@@ -2,6 +2,7 @@
 Link to [Event Page](https://dsc.community.dev/events/details/developer-student-clubs-mcmaster-university-presents-vscode-can-do-that/#/)
 
 [![Youtube Video](https://img.youtube.com/vi/kCl_o11n0bs/0.jpg)](https://www.youtube.com/watch?v=kCl_o11n0bs)
+
 ^ click to see the recorded youtube video
 
 ## Requirements
